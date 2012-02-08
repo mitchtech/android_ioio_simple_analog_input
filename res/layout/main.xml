@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="@string/tvText"
+        android:textSize="30sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <SeekBar
+        android:id="@+id/sbValue"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:max="100"
+        android:progress="0"
+        android:visibility="visible" >
+    </SeekBar>
+
+</LinearLayout>
